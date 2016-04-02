@@ -29,6 +29,7 @@
                     <asp:TemplateField HeaderText="Eliminar">
                         <ItemTemplate>
                             <asp:LinkButton ID="DeleteButton" runat="server" CommandName="Eliminar"
+                                OnClientClick="return confirm('Esta seguro que desea eliminar el Contacto seleccionado?')"
                                 CommandArgument='<%# Eval("ContactoId") %>'>
                                 <i class="glyphicon glyphicon-remove"></i>
                             </asp:LinkButton>
