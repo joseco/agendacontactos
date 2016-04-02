@@ -23,7 +23,7 @@
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Lista de Contactos</a></li>
+                        <li><a href="ListaContactos.aspx">Lista de Contactos</a></li>
                     </ul>
                 </div>
                 <!--/.nav-collapse -->

@@ -45,5 +45,10 @@ public partial class ListaContactos_ : System.Web.UI.Page
                 
             }
         }
+
+        if(e.CommandName == "Editar")
+        {
+            Response.Redirect("~/FormularioContacto.aspx?id=" + e.CommandArgument.ToString());
+        }
     }
 }
